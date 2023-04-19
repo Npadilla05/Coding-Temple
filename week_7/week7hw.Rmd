@@ -828,6 +828,9 @@ qplot(log(life_exp), log(gdp), data=df)+ # Better visual of linear relationship
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
+-   Gdp, population, and life expectancy are typically continuous data,
+    but since this data is from 1952-2007, they are discrete
+
 ```{r}
 # filtered_df is the data that only shows countries with a life expectancy over 80, and a gdp over 25000
 # The legend also shows the different countries that meet our applied filter
